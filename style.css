@@ -83,7 +83,6 @@ img {
 
 @media screen and (max-width: 420px) {
 
-
   body {
     padding: 0;
     margin: 0;
@@ -122,4 +121,9 @@ img {
   #why .row > [class] {
     margin-top: 0;
   }
+
+  img {
+    height: 120px;
+  }
+
 }
