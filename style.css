@@ -81,7 +81,9 @@ img {
 
 
 
-/* media query */
+/* ######## MEDIA QUERY ######## */
+
+/* tablet max 1024px */
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -132,6 +134,8 @@ img {
 
 
 
+/* tablet max 768px */
+
 @media screen and (min-width: 421px) and (max-width: 768px){
 
   body {
@@ -180,6 +184,8 @@ img {
 }
 
 
+
+/* smartphone max 420px */
 
 @media screen and (max-width: 420px) {
 
