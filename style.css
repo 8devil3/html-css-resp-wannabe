@@ -110,4 +110,16 @@ img {
   #lezioni, #why {
     background-color: #F2F2CD;
   }
+
+  .row > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .row > div h3 {
+    margin: 0;
+  }
+
+  #why .row > [class] {
+    margin-top: 0;
+  }
 }
