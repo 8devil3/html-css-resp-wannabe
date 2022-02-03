@@ -71,3 +71,43 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 420px) {
+
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  body > div {
+    padding: 0 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  .left, .right, .central {
+    float: none !important;
+    width: 100% !important;
+  }
+  
+  #lezioni, #why {
+    background-color: #F2F2CD;
+  }
+}
